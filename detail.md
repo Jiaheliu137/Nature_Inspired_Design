@@ -85,7 +85,10 @@ Solving this problem with evolutionary algorithms:
 
 The size of the population represents the size of the solution space, and the larger the population, the easier it is to find the shortest distance.
 
-The process of finding the shortest path is shown in the video:
+The process of finding the shortest path is shown in the [video](./project2/imgs):
+
+![截屏2023-07-27 10.25.12](./detail.assets/%E6%88%AA%E5%B1%8F2023-07-27%2010.25.12.png)
+
 <video controls>
   <source src="./project2/imgs/animation_2d.mp4" type="video/mp4">
 </video>
