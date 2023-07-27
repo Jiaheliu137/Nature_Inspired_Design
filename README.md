@@ -87,6 +87,8 @@ python TSP.py -cn 30 d 2 in 200 -gn 1000 -mp 0.3 -f 20
 <video controls>
   <source src="./project2/imgs/animation_3d.mp4" type="video/mp4">
 </video>
+
+
 ![eg](./README.assets/%E6%88%AA%E5%B1%8F2023-07-27%2010.25.12.png)
 
 [video](./project2/imgs)
