@@ -57,7 +57,7 @@ When the number of individuals in the population is 40, the EP algorithm did not
 
 ![截屏 2023-07-27 09.19.55](./detail.assets/截屏2023-07-27%2009.19.55.png)
 
-But FEP found the optimal solution; it can also be seen that FEP's fitness image is more tortuous;
+But FEP found the optimal solution; it can also be seen that FEP's fitness image is more rough;
 
 The main reason is that: when mutating genes, the FEP algorithm uses the Cauchy probability distribution, while the EP algorithm uses the Gaussian probability distribution;
 

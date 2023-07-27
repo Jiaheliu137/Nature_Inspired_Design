@@ -90,14 +90,14 @@ def evolutionary_algorithm(DNA_SIZE = 2, BOUND=[-10,10], POP_SIZE=2000, N_GENERA
 
 DNA_SIZE = 2             # DNA length
 BOUND = [-10, 10]      # Upper and lower bounds for x and y
-POP_SIZE = 40           # Population size
+POP_SIZE = 20           # Population size
 N_GENERATIONS = 600    # Number of generations
 
-MUTATION_SIGMA = 0.1     # Standard deviation for mutation
-MUTATION_P = 0.1            # Probability of mutation
-EA_METHOD="EP"             # Evolutionary algorithm choice: "EP" or "FEP"
+MUTATION_SIGMA = 1     # Standard deviation for mutation
+MUTATION_P = 0.2           # Probability of mutation
+EA_METHOD="FEP"             # Evolutionary algorithm choice: "EP" or "FEP"
 
-func = peaks # rastrigin or peaks
+func = levy  # rastrigin or levy or peaks or second_penalized or 
 
 """
 Name of the 23 function to plot (e.g., ackley, bukin,
