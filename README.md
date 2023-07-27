@@ -14,11 +14,30 @@ After understanding the multimodal functions, you can use the EP or FEP algorith
 
 ### Function Visualization：
 
-```
+```bash
 cd ./project1/draw_multimoldal_fun
 python draw.py -h
 python draw.py -g
 ```
+
+```bash
+  -f FUNCTION, --function FUNCTION
+                        Name of the 23 function to plot (e.g., ackley, bukin,
+                        cross_in_tray, drop_wave, easom, eggholder, first_penalized,
+                        goldstein_price, holder_table, langermann, levy, levy13,
+                        michalewicz, peaks, quartic, rastrigin, schaffer2, schaffer4,
+                        second_penalized, shekels_foxholes, six_hump_camel,
+                        styblinski_tang, three_hump_camel).
+  -x X_RANGE X_RANGE, --x_range X_RANGE X_RANGE
+                        The range of x-axis, input format: lower_bound upper_bound
+  -y Y_RANGE Y_RANGE, --y_range Y_RANGE Y_RANGE
+                        The range of y-axis, input format: lower_bound upper_bound
+  -c CMAP, --cmap CMAP  Color map to use for the plot. Some options are "viridis"
+                        (default), "hot", "cool", "autumn", "winter".
+  -g, --gui             Run the program with a graphical user interface.
+```
+
+
 
 ![截屏2023-07-27 06.26.34](./README.assets/%E6%88%AA%E5%B1%8F2023-07-27%2006.26.34.png)
 
@@ -67,6 +86,23 @@ This project uses the EP algorithm to find the shortest path in two dimensions a
 cd ./project2
 python TSP.py -h
 ```
+
+```bash
+  -cn CITY_NUM, --city_num CITY_NUM
+                        Number of cities
+  -d DIMENSION, --dimension DIMENSION
+                        Coordinate dimension
+  -in INDIVIDUAL_NUM, --individual_num INDIVIDUAL_NUM
+                        Number of individuals
+  -gn GEN_NUM, --gen_num GEN_NUM
+                        Number of generations
+  -mp MUTATE_PROB, --mutate_prob MUTATE_PROB
+                        Probability of mutation
+  -f FRAMES, --frames FRAMES
+                        frames of animation
+```
+
+
 
 To run
 
