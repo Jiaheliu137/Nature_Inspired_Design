@@ -20,7 +20,7 @@ python draw.py -h
 python draw.py -g
 ```
 
-![截屏2023-07-27 06.32.11](./README.assets/%E6%88%AA%E5%B1%8F2023-07-27%2006.32.11-0423494.png)
+![截屏2023-07-27 06.26.34](./README.assets/%E6%88%AA%E5%B1%8F2023-07-27%2006.26.34.png)
 
 
 
