@@ -95,9 +95,9 @@ N_GENERATIONS = 600    # Number of generations
 
 MUTATION_SIGMA = 0.1     # Standard deviation for mutation
 MUTATION_P = 0.1            # Probability of mutation
-EA_METHOD="FEP"             # Evolutionary algorithm choice: "EP" or "FEP"
+EA_METHOD="EP"             # Evolutionary algorithm choice: "EP" or "FEP"
 
-func = rastrigin # rastrigin or peaks
+func = peaks # rastrigin or peaks
 
 """
 Name of the 23 function to plot (e.g., ackley, bukin,
